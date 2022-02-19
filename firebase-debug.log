@@ -1,0 +1,32 @@
+[debug] [2022-02-19T01:23:35.475Z] ----------------------------------------------------------------------
+[debug] [2022-02-19T01:23:35.477Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Farhan Ali Hamdani\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-02-19T01:23:35.478Z] CLI Version:   10.2.1
+[debug] [2022-02-19T01:23:35.478Z] Platform:      win32
+[debug] [2022-02-19T01:23:35.478Z] Node Version:  v16.14.0
+[debug] [2022-02-19T01:23:35.479Z] Time:          Sat Feb 19 2022 06:23:35 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-02-19T01:23:35.480Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-19T01:23:35.553Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-19T01:23:35.553Z] > authorizing via signed-in user (batch17070@gmail.com)
+[debug] [2022-02-19T01:23:35.553Z] [iam] checking project district3developersreact for permissions ["firebase.projects.get"]
+[debug] [2022-02-19T01:23:35.556Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/district3developersreact:testIamPermissions [none]
+[debug] [2022-02-19T01:23:35.556Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/district3developersreact:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-19T01:23:37.082Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/district3developersreact:testIamPermissions 200
+[debug] [2022-02-19T01:23:37.083Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/district3developersreact:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-19T01:23:37.089Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/district3developersreact [none]
+[debug] [2022-02-19T01:23:37.730Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/district3developersreact 200
+[debug] [2022-02-19T01:23:37.730Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/district3developersreact {"projectId":"district3developersreact","projectNumber":"321892516255","displayName":"District3developersreact","name":"projects/district3developersreact","resources":{"hostingSite":"district3developersreact"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'E:\material-kit-react-main'...
+[info] 
+[debug] [2022-02-19T01:23:37.741Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/district3developersreact/sites 
+[debug] [2022-02-19T01:23:39.346Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/district3developersreact/sites 200
+[debug] [2022-02-19T01:23:39.346Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/district3developersreact/sites {"sites":[{"name":"projects/321892516255/sites/district3developersreact","defaultUrl":"https://district3developersreact.web.app","appId":"1:321892516255:web:7206bd51f6fd966ea43daa","type":"DEFAULT_SITE"}]}
+[debug] [2022-02-19T01:23:39.348Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/district3developersreact/webApps/1:321892516255:web:7206bd51f6fd966ea43daa/config [none]
+[debug] [2022-02-19T01:23:40.470Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/district3developersreact/webApps/1:321892516255:web:7206bd51f6fd966ea43daa/config 200
+[debug] [2022-02-19T01:23:40.471Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/district3developersreact/webApps/1:321892516255:web:7206bd51f6fd966ea43daa/config {"projectId":"district3developersreact","appId":"1:321892516255:web:7206bd51f6fd966ea43daa","storageBucket":"district3developersreact.appspot.com","apiKey":"AIzaSyCY4KF-zV4g3Z_WHw87AdCWqYHk4YoVgfE","authDomain":"district3developersreact.firebaseapp.com","messagingSenderId":"321892516255","measurementId":"G-CVRTFDRGEE"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [19/Feb/2022:01:23:48 +0000] "GET / HTTP/1.1" 200 1056 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Feb/2022:01:23:48 +0000] \"GET / HTTP/1.1\" 200 1056 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Feb/2022:01:23:49 +0000] "GET /%PUBLIC_URL%/favicon.png HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Feb/2022:01:23:49 +0000] \"GET /%PUBLIC_URL%/favicon.png HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Feb/2022:01:23:49 +0000] "GET /%PUBLIC_URL%/manifest.json HTTP/1.1" 500 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Feb/2022:01:23:49 +0000] \"GET /%PUBLIC_URL%/manifest.json HTTP/1.1\" 500 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36\""}}
